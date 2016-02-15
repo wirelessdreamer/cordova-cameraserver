@@ -90,6 +90,17 @@ Displaying a Live Image in a Cordova App is as simple as:
 <img src='http://localhost:8080/live.jpg'>
 ```
 
+## test Application ##
+
+Run these commands in the example_app directory:
+
+    ionic state reset
+    npm install
+    
+    ionic run android -device
+    or
+    ionic run ios -device
+
 ## Usage in applications ##
 
 This plugin was developped for the needs of <strong>Netcam Studio Smart Camera</strong>:
